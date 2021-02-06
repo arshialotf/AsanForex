@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>آسان فارکس</title>
+	<!-- Bootstrap -->
+	<link rel="icon" href="images/IMG_LOGO.JPEG" sizes="32x32" type="image/png">
+	<link href="css/bootstrap4.min.css" rel="stylesheet" >
+	<link href="css/customp1.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+  </head>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script>
+	  $(document).ready(function(){
+		  $('#home').click(function(e){
+			e.preventDefault();
+			$('html, body').animate({scrollTop:0},'slow');
+		  });
+		  $('#doreha').click(function(e){
+			e.preventDefault();
+			$('html, body').animate({scrollTop:415},'slow');
+		  });
+		  $('#about').click(function(e){
+			e.preventDefault();
+			$('html, body').animate({scrollTop:912},'slow');
+		  });
+		  $('#contact').click(function(e){
+			e.preventDefault();
+			$('html, body').animate({scrollTop:1292},'slow');
+		  });
+		  $('#frx').click(function(){
+			location.href='0to100.html';
+		})
+		$('#prcAction').click(function(){
+			location.href='prcAction.html';
+		})
+	  });
+  </script>
+  <body>
+	  <!-- body code goes here -->
+	<nav class="navbar navbar-expand-lg navbar-light d-flex fixed-top">
+		<div class="container">
+				<a class="navbar-brand" href="index.html"><img src="images/IMG_LOGO-removebg-preview.png" alt="" style="width: 50px; height: 50px;"></a>
+				<span class="navbar-text text-light">
+					Asan<span class="text-danger">Forex</span>
+				  </span>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  		<span class="navbar-toggler-icon"></span>
+				</button>
+	  
+				<div class="collapse navbar-collapse " id="navbarSupportedContent">
+		  		<ul class="navbar-nav ml-auto mr-auto">
+					<li class="nav-item  px-3">
+			  		<a class="nav-link" href="#" id="home">خانه</a>
+					</li>
+					<li class="nav-item px-3">
+			  		<a class="nav-link" href="#" id="doreha">دوره ها</a>
+					</li>
+					<li class="nav-item dropdown px-3"  >
+					  <a class="nav-link" href="#" id="about"><!--<i class="fa fa-caret-down"></i>-->درباره ما</a>
+				<!--    <div class="dropdown-menu">
+						<a class="dropdown-item" href="#">فارکس صفر تا صد</a>
+						
+						<a class="dropdown-item" href="#">پرایس اکشن</a>
+					  </div>-->
+					</li>
+					<li class="nav-item px-3">
+			  		<a class="nav-link" href="#" id="contact">ارتباط با ما</a>
+					</li>
+		  		</ul>
+		  		<form class="form-inline my-2 my-lg-0">
+					<a href="LogIn.html" class="btn btn-outline-danger mr-1 my-2 my-sm-0" type="submit" >ورود</a>
+					<a href="SignUp.html" class="btn btn-outline-success my-2 my-sm-0" type="submit">ثبت نام</a>
+		  		</form>
+				</div>
+			
+		</div> <!-- container -->
+	</nav>
+	<header>
+		<div class="container-fluid" style="background-image: url(images/11.jpg); height: 520px; width: 100%; background-size: cover; background-position: center center;">
+			<div class="row" style="padding-top: 250px ;">
+				<div class=" col-12  text-center">
+					<span class="font-weight-bold col-12 text-light p-2" style="font-size: 40px; border: 5px solid white ; ">فارکس رو ساده یاد بگیر</span>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-md-6 text-center mb-4" >
+					<div id="frx" style="box-shadow:5px 5px 25px rgb(214, 214, 214); border-radius: 10px; background-color: rgb(233, 122, 218); background-image: linear-gradient(45deg,rgb(233, 122, 218),rgb(107, 59, 240));">
+						<img src="images/—Pngtree—simple financial investment stock vector_5445373.png" alt="" class="img-fluid " style="width: 250px; height: 250px;">
+						<p class="text-danger font-weight-bold mb-0 pt-3" style="background-color: rgb(240, 240, 240); font-size: 25px; font-family: 'gandom';">آموزش صفر تا صد فارکس</p>
+						<p class="p-3" style="background-color: rgb(240, 240, 240); border-radius: 0 0 10px 10px; font-family: 'dirooz'"> در این پکیج مفاهیم فارکس رو از صفر تا صد یاد میگیرید و میتوانید وارد بازار فارکس و معامله شوید</p>
+					</div>
+					
+				</div>
+				<div class="col-md-6 text-center mb-4" >
+					<div id="prcAction" style="box-shadow:5px 5px 25px rgb(214, 214, 214); border-radius: 10px; background-color: rgb(255, 147, 74); background-image: linear-gradient(45deg, rgb(241, 152, 69),rgb(248, 66, 66));">
+						<img src="images/—Pngtree—stock market fluctuation graph_5485381.png" alt="" class="img-fluid" style="width: 250px; height: 250px;">
+						<p class="text-danger font-weight-bold mb-0 pt-3" style="background-color: rgb(240, 240, 240); font-size: 25px; font-family: 'gandom';">آموزش پرایس اکشن</p>
+						<p class="p-3" style="background-color: rgb(240, 240, 240); border-radius: 0 0 10px 10px; font-family: 'dirooz';">این پکیج مناسب افرادیست که با بازار فارکس و سرمایه گذاری آشنایی دارند و نیازمند یادگیری تحلیل های حرفه ای تر هستند</p>
+					</div>
+					
+				</div> 
+			</div>
+		</div>
+		<div class="mb-5" style="background-color: rgb(228, 228, 228); height: auto;">
+			<div class="container">
+				<div class="row">
+					<div class=" offset-sm-2 col-sm-8 offset-md-0 col-md-4 text-center">
+						<img style=" width: 100%;" src="images\_Pngtree_modern_flat_design_concept_of_5332902-removebg-preview.png" alt="">
+						<p class="text-primary font-weight-bold" style="font-family: 'gandom'; font-size: 20px;"> تاریخچه آسان فارکس</p>
+						<p style="font-family: 'dirooz'; color: black;" >آسان فارکس فعالیت خود را ابتدا از اینستاگرام آغاز کرد و از سال 1398 این خانواده روز به روز در حال بزرگتر شدن است</p>
+					</div>
+					<div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4 text-center">
+						<img style=" width: 100%; " src="images/_Pngtree_modern_flat_design_concept_of_5332857-removebg-preview.png" alt="">
+						<p class="text-primary font-weight-bold" style="font-family: 'gandom'; font-size: 20px;"> دوره های موفق</p>
+						<p style="font-family: 'dirooz'; color: black;" >تیم آسان فارکس در طول فعالیت خود بیش از صد و پنجاه دانشجو را به سود دهی رسانده است و از آن ها معامله گرانی حرفه ای ساخته است</p>
+					</div>
+					<div class="offset-sm-2 col-sm-8 offset-md-0 col-md-4 text-center">
+						<img style=" width: 100%; " src="images/_Pngtree_modern_flat_design_concept_of_5332905-removebg-preview.png" alt="">
+						<p class="text-primary font-weight-bold" style="font-family: 'gandom'; font-size: 20px;"> درباره تیم</p>
+						<p style="font-family: 'dirooz'; color: black;" >تیم آسان فارکس متشکل از چهار معامله گر با بیش از پنج سال سابقه است و شما را تا زمانی که به سود دهی برسید همراهی خواهد کرد</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<footer>
+		<div class="container-fluid pt-5" style="background-color: black;">
+			<div class="row">
+				<div class="col-12 text-center mb-5"><img src="images/IMG_LOGO-removebg-preview.png" alt="" style="width: 70px; height: 70px;"></div>
+				<div class="row offset-md-2 col-md-8 text-center mb-5" style="padding-left: 35px; padding-right: 0;">
+					<a class="col-3" href="">ارتباط با ما</a>
+					<a class="col-3" href="">درباره ما</a>
+					<a class="col-3" href="">دوره ها</a>
+					<a class="col-3" href="#" id="home">خانه</a>
+				</div>
+				<div class="col-12 text-center mb-4">
+					<i class="fa fa-instagram px-3" style=" font-size: 45px!important;"></i>
+					<i class="fa fa-paper-plane px-3"></i>
+				</div>
+				<div class="offset-md-2 col-md-8 text-center text-light pt-4" style="border-top: 1px solid white;">
+					<p style="font-family: 'gandom';">کلیه حقوق مادی و معنوی این سایت برای آکادمی آسان فارکس محفوظ است</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap4.min.js"></script>
+	<script>
+		// custom js
+	</script>
+  </body>
+</html>

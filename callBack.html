@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>تایید پرداخت</title>
+	<!-- Bootstrap -->
+	<link rel="icon" href="images/IMG_LOGO.JPEG" sizes="32x32" type="image/png">
+	<link href="css/bootstrap4.min.css" rel="stylesheet" >
+	<link href="css/customp7.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+  </head>
+  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var w = window.innerWidth;
+			if(w < 991){
+				$('#profile').click(function(){
+					location.href='panel.html';
+				});				
+			}else{
+				$('#profile').click(function(){
+					$('#profileUl').slideToggle('500');
+				});
+			}
+            $('#panel').click(function(){
+			    location.href='panel.html';
+		    });
+            $('#panelOd').click(function(){
+			    location.href='panelOrders.html';
+		    });
+            $('#panelDl').click(function(){
+			    location.href='panelDownload.html';
+		    });
+            $('#mainUl li:eq(0)').click(function(){
+                location.href='panel.html';
+            });
+            $('#mainUl li:eq(1)').click(function(){
+                location.href='panelOrders.html';
+            });
+            $('#mainUl li:eq(2)').click(function(){
+                location.href='panelDownload.html';
+            });
+		});
+	</script>
+  <body>
+	  <!-- body code goes here -->
+	<nav class="navbar navbar-expand-lg navbar-light d-flex fixed-top">
+		<div class="container">
+				<a class="navbar-brand" href="index.html"><img src="images/IMG_LOGO-removebg-preview.png" alt="" style="width: 50px; height: 50px;"></a>
+				<span id="title" class="navbar-text text-light">
+					Asan<span class="text-danger">Forex</span>
+                </span>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  		<span class="navbar-toggler-icon"></span>
+                </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  		<ul class="navbar-nav ml-auto mr-auto">
+					<li class="nav-item  px-3">
+			  		<a class="nav-link" href="index.html">خانه</a>
+					</li>
+					<li class="nav-item px-3">
+			  		<a class="nav-link" href="index.html">دوره ها</a>
+					</li>
+					<li class="nav-item dropdown px-3">
+					  <a class="nav-link" data-toggle="dropdown" href="index.html" role="button" aria-haspopup="true" aria-expanded="false"><!--<i class="fa fa-caret-down"></i>-->درباره ما</a>
+					  <!--<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">فارکس صفر تا صد</a>
+
+						<a class="dropdown-item" href="#">پرایس اکشن</a>
+					  </div>-->
+					</li>
+					<li class="nav-item px-3">
+			  		<a class="nav-link" href="index.html">ارتباط با ما</a>
+					</li>
+                  </ul>
+                  <div id="profile">
+                    <i class="fa fa-user-o text-white"></i>
+                    <i class="fa fa-caret-down text-white"></i>
+				  </div>
+                </div>
+		</div> <!-- container -->
+	</nav>
+	<header>
+		<div class="container-fluid" style="background-image: url(images/11.jpg); height: 520px; width: 100%; background-size: cover; background-position: center center;">
+			<div class="row" style="padding-top: 250px ;">
+				<div class=" col-12  text-center">
+					<span class="font-weight-bold col-12 text-light p-2" style="font-size: 40px; border: 5px solid white ; ">فارکس رو ساده یاد بگیر</span>
+				</div>
+			</div>
+		</div>
+		<ul id="profileUl">
+				<li id="panel">حساب کاربری <i class="fa fa-user"></i></li>
+				<li id="panelOd">سفارش ها <i class="fa fa-list-alt"></i></li>
+				<li id="panelDl">دانلود <i class="fa fa-download"></i></li>
+				<li>خروج <i class="fa fa-sign-out"></i></li>
+			</ul>
+	</header>
+	<main>
+		<div class="container pt-5 pb-5">
+			<div class="row">
+                <div class="offset-2 col-8 text-center mb-4 mt-4" id="callBack" style="font-family: 'dirooz';">
+                    <i class="fa fa-check-circle-o"></i>
+                    <div class="col-12 text-center">پرداخت شما با موفقیت انجام شد</div>
+                    <div class="col-12 py-3">لطفا برای دانلود ویدیو ها به حساب کاربری خود, قسمت <a href="panelDownload.html">دانلود</a> مراجعه کنید</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container-fluid pt-5" style="background-color: black;">
+			<div class="row">
+				<div class="col-12 text-center mb-5"><img src="images/IMG_LOGO-removebg-preview.png" alt="" style="width: 70px; height: 70px;"></div>
+				<div class="row offset-md-2 col-md-8 text-center mb-5" style="padding-left: 35px; padding-right: 0;">
+					<a class="col-3" href="index.html">ارتباط با ما</a>
+					<a class="col-3" href="index.html">درباره ما</a>
+					<a class="col-3" href="index.html">دوره ها</a>
+					<a class="col-3" href="index.html">خانه</a>
+				</div>
+				<div class="col-12 text-center mb-4">
+					<i class="fa fa-instagram px-3" style=" font-size: 45px!important;"></i>
+					<i class="fa fa-paper-plane px-3"></i>
+				</div>
+				<div class="offset-md-2 col-md-8 text-center text-light pt-4" style="border-top: 1px solid white;">
+					<p style="font-family: 'gandom';">کلیه حقوق مادی و معنوی این سایت برای آکادمی آسان فارکس محفوظ است</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap4.min.js"></script>
+	<script>
+		// custom js
+	</script>
+  </body>
+</html>

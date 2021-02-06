@@ -1,0 +1,176 @@
+@font-face{
+    font-family: 'ubuntu';
+    src: url(../fonts/ubuntu-regular.ttf);
+}
+@font-face{
+    font-family: 'dirooz';
+    src: url(../fonts/Dirooz.ttf);
+}
+@font-face{
+    font-family: 'gandom';
+    src: url(../fonts/Gandom.ttf);
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.842);
+    
+}
+.navbar-text{
+    font-size: 25px;
+}
+@media all and (min-width:991px){
+    .navbar-nav{
+         direction: rtl;
+     } 
+ }
+nav ul li i{
+    font-size: 15px!important;
+}
+nav ul li a:hover{
+    color: rgb(253, 72, 72)!important;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    color: black!important;
+}
+nav ul li a{
+    color: rgb(255, 255, 255)!important;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+/*
+nav ul li:hover:after{
+    opacity: 1;
+}
+nav ul li:after{
+    display:block;
+    content: '';
+    border-bottom: solid 5px rgb(253, 72, 72);  
+    opacity: 0;
+    transform: translateY(12px);
+    transition: all 0.5s ease-in-out;
+}
+*/
+.dropdown-menu{
+    background-color: rgba(85, 85, 85, 0.644);
+    text-align: right;
+    position: absolute;
+    left: -80px;
+}
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.267);
+}
+@media all and (max-width:991px){
+    ul{
+        text-align: center;
+    }
+    form{
+        text-align: center!important;
+        display: block!important;
+    }
+    .dropdown-menu{
+        text-align: center;
+        width: 100%;
+        background: none;
+    }
+    .dropdown-menu a{
+        font-size: 18px!important;
+    }
+    .dropdown-item:hover{
+        color: rgb(253, 72, 72)!important;
+    }
+    #vid{
+       
+       margin-bottom: 100px;
+       height: 250px!important;
+    }
+    #targ span{
+        font-size: 20px!important;
+    }
+}
+#name h1{
+    font-family: 'gandom';
+    font-size: 35px;
+}
+#prc{
+    height: 200px;
+    font-family: 'gandom';
+    box-shadow:5px 5px 25px rgb(214, 214, 214); border-radius: 10px;
+    background-color: rgb(240, 240, 240); padding: 30px 0;
+}
+#prc span:first-child{
+    font-size: 20px;
+}
+#prc p:last-of-type{
+    margin-top: -10px;
+    color: rgb(25, 194, 33);
+}
+#cart{
+    height: 200px;
+    font-family: 'gandom';
+    box-shadow:5px 5px 25px rgb(214, 214, 214); border-radius: 10px;
+    background-color: rgb(240, 240, 240); padding: 30px 0;
+}
+#cart span:first-child{
+    font-size: 20px;
+}
+#cart .fa-shopping-cart{
+    font-size: 20px;
+}
+#cart p{
+    padding-top: 40px;opacity: 0.6;
+}
+#targ .fa-times{
+    position: absolute;
+    left: 25px;
+    top: 81px;
+    cursor: pointer;
+}
+#targ span:nth-child(2){
+    font-size: 15px;
+    position: absolute;
+    left: 55px;
+    top: 80px;
+    font-weight: bold;
+}
+#targ span:last-child{
+    font-size: 15px;
+    position: absolute;
+    right: 25px;
+    top: 80px;
+    font-weight: bold;
+}
+#targ button{
+    margin-top: 75px;
+}
+#vid{
+    height: 300px; border-radius: 10px;
+}
+#vid img{
+    height: 100%; width: 100%; background-size: cover; background-position: center center;
+    border-radius: 10px;
+}
+#desc{
+    font-family: 'dirooz';
+}
+#desc p:first-of-type{
+    font-size: 18px;
+}
+footer a{
+    color: white;
+    font-size: 20px;
+    font-family: 'dirooz';
+    transition: all 0.5s;
+}
+footer a:hover{
+    color: rgb(253, 72, 72);
+    text-decoration: none;
+}
+footer i{
+    color: white;
+    font-size: 40px!important;
+    transition: all 0.5s;    
+}
+footer i:hover{
+    cursor: pointer;
+    color: rgb(220,53,69);
+}
